@@ -1,6 +1,6 @@
 {
 	"pattrstorage" : 	{
-		"name" : "u520004364",
+		"name" : "u833000555",
 		"slots" : 		{
 			"1" : 			{
 				"id" : 1,
@@ -56,7 +56,17 @@
 					"sc.texture.slide::slide_down" : [ 31.0 ],
 					"sc.texture.slide::bypass" : [ 0.0 ],
 					"sc.texture.leakyintegrator::leak" : [ 0.9 ],
-					"sc.texture.leakyintegrator::bypass" : [ 0.0 ]
+					"sc.texture.leakyintegrator::bypass" : [ 0.0 ],
+					"sc.texture.roi::start_pos" : [  ],
+					"sc.texture.roi::src_dim" : [  ],
+					"sc.texture.roi::drawto" : [  ],
+					"sc.texture.rota::bypass" : [  ],
+					"sc.texture.rota::theta" : [  ],
+					"sc.texture.rota::offset" : [  ],
+					"sc.texture.rota::zoom" : [  ],
+					"sc.texture.rota::anchor" : [  ],
+					"sc.texture.rota::boundmode" : [  ],
+					"sc.texture.rota::zoom_linked" : [  ]
 				}
 
 			}
@@ -73,8 +83,8 @@
 					"sc.mesh.displace::draw_mode" : [ "points" ],
 					"sc.mesh.displace::depth_mode" : [ 0 ],
 					"sc.mesh.displace::color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"sc.mesh.displace::line_width" : [ 25.0 ],
-					"sc.mesh.displace::point_size" : [ 9.0 ],
+					"sc.mesh.displace::line_width" : [ 1.0 ],
+					"sc.mesh.displace::point_size" : [ 6.8 ],
 					"sc.mesh.displace::antialias" : [ 1 ],
 					"sc.mesh.displace::blend_enable" : [ 1 ],
 					"sc.mesh.displace::blend" : [ "alphablend" ],
@@ -85,7 +95,7 @@
 					"sc.texture.camera.simple::texture_name" : [ 0 ],
 					"sc.texture.camera.simple::automatic[1]" : [ 1 ],
 					"sc.texture.camera.simple::unique" : [ 1 ],
-					"sc.texture.camera.simple::hflip" : [ 1.0 ],
+					"sc.texture.camera.simple::hflip" : [ 0.0 ],
 					"sc.lbm4::velocity_dissipation" : [ 0.999 ],
 					"sc.lbm4::velocity_timestep" : [ 1.0 ],
 					"sc.lbm4::density_dissipation" : [ 0.999 ],
@@ -105,17 +115,27 @@
 					"sc.lbm4::drawto" : [ "space" ],
 					"sc.texture.bloom[1]::threshold" : [ 0.45 ],
 					"sc.texture.bloom[1]::width" : [ 1.0 ],
-					"sc.texture.bloom[1]::amount" : [ 3.0 ],
+					"sc.texture.bloom[1]::amount" : [ 11.0 ],
 					"sc.texture.bloom[1]::bypass" : [ 0.0 ],
 					"sc.texture.rgb2luma[1]::rscale" : [ 0.299 ],
 					"sc.texture.rgb2luma[1]::gscale" : [ 0.587 ],
 					"sc.texture.rgb2luma[1]::bscale" : [ 0.114 ],
 					"sc.texture.rgb2luma[1]::bypass" : [ 0.0 ],
 					"sc.texture.slide::slide_up" : [ 1.0 ],
-					"sc.texture.slide::slide_down" : [ 58.0 ],
+					"sc.texture.slide::slide_down" : [ 24.0 ],
 					"sc.texture.slide::bypass" : [ 0.0 ],
 					"sc.texture.leakyintegrator::leak" : [ 0.9 ],
-					"sc.texture.leakyintegrator::bypass" : [ 0.0 ]
+					"sc.texture.leakyintegrator::bypass" : [ 0.0 ],
+					"sc.texture.roi::start_pos" : [ 0.24, 1.0 ],
+					"sc.texture.roi::src_dim" : [ 0.35, 0.78 ],
+					"sc.texture.roi::drawto" : [ "mutual" ],
+					"sc.texture.rota::bypass" : [ 0.0 ],
+					"sc.texture.rota::theta" : [ 0.0 ],
+					"sc.texture.rota::offset" : [ 0.0, 0.0 ],
+					"sc.texture.rota::zoom" : [ 1.0, 1.0 ],
+					"sc.texture.rota::anchor" : [ 0.5, 0.5 ],
+					"sc.texture.rota::boundmode" : [ 0.0 ],
+					"sc.texture.rota::zoom_linked" : [ 1.0 ]
 				}
 
 			}
